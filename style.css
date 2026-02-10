@@ -9,3 +9,149 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+/* Header and footer share visual styling */
+.page-header,
+.page-footer {
+  border: 2px dashed #BADA55;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Section containers */
+.page-section {
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 24px auto;
+  max-width: 900px;
+  background-color: #ffffff;
+}
+
+/* Inline code styling (used in reflections or future content) */
+code {
+  background: #f2f2f2;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* SECTION 1: Selector Types*/
+
+/* Activity Two – Exploring different selector types */
+
+/* Element selector */
+p {
+  color: #333;
+}
+
+/* Class selector */
+.skills-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* ID selector */
+#about {
+  background-color: #fdfdfd;
+}
+
+/* Descendant selector (contextual) */
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Attribute selector */
+p[id="intro-text"] {
+  font-style: italic;
+}
+
+/* Pseudo-class selector */
+a:hover {
+  color: #005fa3;
+}
+
+/* Pseudo-element selector */
+.page-section h2::before {
+  content: "◆ ";
+  color: #BADA55;
+}
+
+/* SECTION 2: Cascade & Consistency*/
+
+/* Activity Three – Consistent visual styling */
+
+/* Navigation links */
+header nav a {
+  text-decoration: none;
+  color: #1a5fb4;
+  font-weight: 600;
+}
+
+/* Project links */
+.project-list a {
+  color: #0077cc;
+}
+
+/* More specific selector overrides element rule */
+.project-list a:hover {
+  text-decoration: underline;
+}
+
+/* SECTION 3: Box Model (Form)*/
+
+/* Activity Four – Visualizing spacing and layout */
+
+.contact-form {
+  margin-top: 16px;
+}
+
+/* Fieldset used to demonstrate margin, border, and padding */
+.form-box {
+  display: block;
+  border: 2px dashed red;
+  padding: 20px;
+  margin: 40px 20px;
+}
+
+/* Each form field as a visible box */
+.field {
+  display: block;
+  border: 2px dashed #aaa;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+/* Label text inside fields */
+.field span {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* Attribute selector for form controls */
+.field input,
+.field textarea {
+  width: 100%;
+  border: 2px solid #999;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+/* Button styling */
+.primary {
+  font-weight: 700;
+  background-color: #1a5fb4;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+/* Pseudo-class for interaction feedback */
+.primary:hover {
+  background-color: #003f8f;
+}
