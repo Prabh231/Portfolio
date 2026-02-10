@@ -1,0 +1,11 @@
+/* BASE STYLING*/
+
+/* Element selector */
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 15px;
+  background-color: #f4f4f4;
+  color: #333;
+}
