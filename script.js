@@ -12,4 +12,6 @@ let darkModeButton = document.querySelector("#darkModeBtn");
 contactForm.addEventListener("submit", function(event) {
     // Prevents page refresh on submit.
     event.preventDefault();
+    // Gets user input from name field.
+    let userName = nameInput.value;
 })
