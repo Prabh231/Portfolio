@@ -154,5 +154,6 @@ header nav a {
 /* Pseudo-class for interaction feedback */
 .primary:hover {
   background-color: #003f8f;
+  /* set the color of submit button whenever arrow is on submit color will change*/
 }
 /*Taken help from https://github.com/JessicaGilfillan/COMP1002_Winter2026/blob/main/week_four/css/styles.css*/
