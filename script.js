@@ -10,4 +10,6 @@ let responseMessage = document.querySelector("#responseMessage");
 let darkModeButton = document.querySelector("#darkModeBtn");
 // This handles the contact form submission.
 contactForm.addEventListener("submit", function(event) {
+    // Prevents page refresh on submit.
+    event.preventDefault();
 })
