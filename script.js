@@ -6,3 +6,5 @@ let contactForm = document.querySelector(".contact-form");
 let nameInput = document.querySelector("#name");
 // This variable stores the paragraph where messages will be shown.
 let responseMessage = document.querySelector("#responseMessage");
+// This variable stores the dark mode button.
+let darkModeButton = document.querySelector("#darkModeBtn");
