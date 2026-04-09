@@ -36,3 +36,15 @@ if (darkModeButton) {
     
     })
 }
+/*refelction
+While creating my portfolio website, I learned how to use HTML, CSS, and JavaScript together
+to build a complete webpage. I used semantic HTML to organize my content into sections like 
+About, Projects, and Contact, which helped keep my code clear and structured.One thing that
+went well was building a responsive layout using CSS Grid and Flexbox. This allowed my website
+to adjust properly on different screen sizes. I also successfully added JavaScript features 
+like a dark mode toggle and a contact form message, which made the page more interactive.One
+challenge I faced was fixing dark mode styling. Some text and sections were not changing colors
+properly. I had to carefully adjust my CSS rules to make sure everything worked correctly in
+both light and dark mode.Overall, I learned how important proper structure, styling order, 
+and testing are when building a website. I also improved myproblem-solving skills while 
+debugging layout and styling issues.*/
