@@ -2,3 +2,5 @@
 
 // This variable stores the contact form element.
 let contactForm = document.querySelector(".contact-form");
+// This variable stores the name input field.
+let nameInput = document.querySelector("#name");
