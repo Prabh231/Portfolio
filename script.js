@@ -4,3 +4,5 @@
 let contactForm = document.querySelector(".contact-form");
 // This variable stores the name input field.
 let nameInput = document.querySelector("#name");
+// This variable stores the paragraph where messages will be shown.
+let responseMessage = document.querySelector("#responseMessage");
