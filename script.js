@@ -22,9 +22,17 @@ contactForm.addEventListener("submit", function(event) {
         contactForm.reset();
     }
 })
-    // This handles dark mode toggle.
-    darkModeButton.addEventListener("click", function() {
+if (darkModeButton) {
+    darkModeButton.addEventListener("click", function () {
+        // Toggle dark mode class on body
+        document.body.classList.toggle("dark-mode");
 
-    // Toggles dark mode class on the body element.
-    document.body.classList.toggle("dark-mode");
+        //  update button text based on mode
+        if (document.body.classList.contains("dark-mode")) {
+            darkModeButton.textContent = "Switch to Light Mode";
+        } else {
+            darkModeButton.textContent = "Switch to Dark Mode";
+        }
+    
     })
+}
