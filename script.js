@@ -19,6 +19,7 @@ contactForm.addEventListener("submit", function(event) {
         responseMessage.textContent = "Please enter your name.";
     } else {
         responseMessage.textContent = "Thanks " + userName + ", I will get back to you soon!";
+        contactForm.reset();
     }
 })
     // This handles dark mode toggle.
