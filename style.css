@@ -164,3 +164,32 @@ header nav a {
     background-color: #222;
     color: white;
 }
+/* Dark mode sections */
+.dark-mode .page-section {
+    background-color: #333;
+    border-color: #555;
+}
+/* Dark mode links */
+.dark-mode a {
+    color: #80bfff;
+}
+/* Dark mode toggle button */
+#darkModeBtn {
+    padding: 8px 12px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1a5fb4;
+    color: white;
+    border-radius: 5px;
+}
+
+#darkModeBtn:hover {
+    background-color: #003f8f;
+}
+/* Dark mode header and footer */
+.dark-mode .page-header,
+.dark-mode .page-footer {
+    border-color: #555;
+}
