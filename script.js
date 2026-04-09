@@ -8,3 +8,6 @@ let nameInput = document.querySelector("#name");
 let responseMessage = document.querySelector("#responseMessage");
 // This variable stores the dark mode button.
 let darkModeButton = document.querySelector("#darkModeBtn");
+// This handles the contact form submission.
+contactForm.addEventListener("submit", function(event) {
+})
