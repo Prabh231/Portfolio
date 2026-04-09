@@ -21,3 +21,9 @@ contactForm.addEventListener("submit", function(event) {
         responseMessage.textContent = "Thanks " + userName + ", I will get back to you soon!";
     }
 })
+    // This handles dark mode toggle.
+    darkModeButton.addEventListener("click", function() {
+
+    // Toggles dark mode class on the body element.
+    document.body.classList.toggle("dark-mode");
+    })
