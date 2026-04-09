@@ -97,23 +97,17 @@
          <!-- Title for the fieldset -->
         <legend>Send a Message</legend>
 
-        <label class="field">
-          <span>Name</span>
-          <input id="name"  type="text" name="name" required minlength="2" />
+        <label for="name" class="field">Name</label>
+        <input id="name"  type="text" name="name" required minlength="2" />
           <!-- input is setted to text and required minlength="2" means minimum 2 characters -->
-        </label>
-
-        <label class="field">
-          <span>EMAIL</span>
-          <input id="email"  type="email" name="email" required />
+        
+        <label for="email" class="field">Email</label>
+        <input id="email"  type="email" name="email" required />
           <!-- type="email" ensures valid email format -->
-        </label>
 
-        <label class="field">
-          <span>Message</span>
-          <textarea id="message" name="message" required minlength="10"></textarea>
+        <label for="message" class="field">Message</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
           <!-- Text area for longer input, further minimumlength is setted to 10 -->
-        </label>
 
         <button class="btn primary" type="submit">Send Message</button>
         <!-- Submit button to send form -->
