@@ -1,22 +1,38 @@
 <!DOCTYPE html>
+<!-- Declares this document as HTML5 -->
 <html lang="en">
+  <!-- Root element of the webpage, lang="en" helps with accessibility by setting language to english -->
+
 <head>
+  <!-- Contains meta information about the webpage (which is not on the page) -->
   <meta charset="UTF-8">
+  <!-- Sets character encoding so text displays correctly -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <!-- added the Title  -->
   <link rel="stylesheet" href="style.css">
   <!-- This is the main stylesheet for my portfolio -->
 </head>
+<body>
+  <!-- All visible content of the webpage goes inside <body> -->
 <!-- HEADER & NAVIGATION -->
   <header class="page-header">
+    <!-- Main heading -->
     <h1>Prabhjot Kaur</h1>
+     <!-- subtitle -->
+
     <p class="subtitle">Computer Programming Student</p>
 
     <!-- Main site navigation -->
     <nav>
+       <!-- Unordered list(ul) used for navigation links -->
       <ul class="nav-list">
+        <!--  link that will take to About section -->
         <li><a href="#about">About</a></li>
+        <!--  link that will take to Projects section -->
         <li><a href="#projects">Projects</a></li>
+        <!--  link that will take to Contact section -->
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -57,6 +73,7 @@
     <ul class="project-list">
       <li>
         <a href="https://github.com/Prabh231/lab2html" target="_blank">
+          <!-- target="_blank" opens link in a new tab takes directly to link -->
           Project One
         </a>
       </li>
@@ -67,33 +84,38 @@
       </li>
     </ul>
   </section>
-  <!-- =========================
-       SECTION 3: CONTACT
-       ========================= -->
+  <!-- SECTION 3: CONTACT-->
   <section class="page-section" id="contact">
     <h2>Contact Me</h2>
 
     <!-- Contact form with HTML validation attributes -->
     <form class="contact-form" action="#" method="post">
+      <!-- action="#" means no backend yet and method="post" is used to send form data -->
       <fieldset class="form-box">
+         <!-- Title for the fieldset -->
         <legend>Send a Message</legend>
 
         <label class="field">
           <span>Name</span>
           <input type="text" name="name" required minlength="2" />
+          <!-- input is setted to text and required minlength="2" means minimum 2 characters -->
         </label>
 
         <label class="field">
           <span>Email</span>
           <input type="email" name="email" required />
+          <!-- type="email" ensures valid email format -->
         </label>
 
         <label class="field">
           <span>Message</span>
           <textarea name="message" required minlength="10"></textarea>
+          <!-- Text area for longer input, further minimumlength is setted to 10 -->
         </label>
 
         <button class="btn primary" type="submit">Send Message</button>
+        <!-- Submit button to send form -->
+
       </fieldset>
     </form>
   </section>
