@@ -18,6 +18,7 @@
   <!-- All visible content of the webpage goes inside <body> -->
 <!-- HEADER & NAVIGATION -->
   <header class="page-header">
+    
     <!-- Main heading -->
     <h1>Prabhjot Kaur</h1>
      <!-- subtitle -->
@@ -37,6 +38,7 @@
       </ul>
     </nav>
   </header>
+  <main>
   <!-- SECTION 1: ABOUT ME -->
   <section class="page-section" id="about">
     <h2>About Me</h2>
@@ -97,19 +99,19 @@
 
         <label class="field">
           <span>Name</span>
-          <input type="text" name="name" required minlength="2" />
+          <input id="name"  type="text" name="name" required minlength="2" />
           <!-- input is setted to text and required minlength="2" means minimum 2 characters -->
         </label>
 
         <label class="field">
-          <span>Email</span>
-          <input type="email" name="email" required />
+          <span>EMAIL</span>
+          <input id="email"  type="email" name="email" required />
           <!-- type="email" ensures valid email format -->
         </label>
 
         <label class="field">
           <span>Message</span>
-          <textarea name="message" required minlength="10"></textarea>
+          <textarea id="message" name="message" required minlength="10"></textarea>
           <!-- Text area for longer input, further minimumlength is setted to 10 -->
         </label>
 
@@ -119,6 +121,7 @@
       </fieldset>
     </form>
   </section>
+  </main>
  <!--FOOTER-->
   <footer class="page-footer">
     <p>&copy; 2026 Prabhjot Kaur</p>
