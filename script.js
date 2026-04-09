@@ -14,4 +14,10 @@ contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
     // Gets user input from name field.
     let userName = nameInput.value;
+    // Checks if input is empty.
+    if (userName === "") {
+        responseMessage.textContent = "Please enter your name.";
+    } else {
+        responseMessage.textContent = "Thanks " + userName + ", I will get back to you soon!";
+    }
 })
